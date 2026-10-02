@@ -1,0 +1,8 @@
+{
+  "name": "THE INSPIRE DIGITAL LIBRARY",
+  "description": "Smart 66-seat library management, student seat allotment, QR attendance punch, and monthly fees tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

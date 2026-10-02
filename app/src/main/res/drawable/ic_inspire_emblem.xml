@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Outer Golden Concentric Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="3.5"
+        android:pathData="M100,100m-90,0a90,90 0 1,0 180,0a90,90 0 1,0 -180,0" />
+
+    <!-- Thin Accent Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C5A059"
+        android:strokeWidth="1.2"
+        android:pathData="M100,100m-84,0a84,84 0 1,0 168,0a84,84 0 1,0 -168,0" />
+
+    <!-- Inner Core Circle (Navy Background for center medallion) -->
+    <path
+        android:fillColor="#101D36"
+        android:pathData="M100,100m-68,0a68,68 0 1,0 136,0a68,68 0 1,0 -136,0" />
+
+    <!-- Inner Golden Border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E5C158"
+        android:strokeWidth="2.5"
+        android:pathData="M100,100m-68,0a68,68 0 1,0 136,0a68,68 0 1,0 -136,0" />
+
+    <!-- Left Small Book Icon in Border Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M17,94 L17,106 C21,104 25,104 28,106 L28,94 C25,92 21,92 17,94 Z M28,94 C31,92 35,92 39,94 L39,106 C35,104 31,104 28,106" />
+
+    <!-- Right Small Book Icon in Border Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M161,94 L161,106 C165,104 169,104 172,106 L172,94 C169,92 165,92 161,94 Z M172,94 C175,92 179,92 183,94 L183,106 C179,104 175,104 172,106" />
+
+    <!-- Decorative Stars inside Inner Medallion -->
+    <path
+        android:fillColor="#FFDF78"
+        android:pathData="M135,68 L137,73 L142,75 L137,77 L135,82 L133,77 L128,75 L133,73 Z" />
+    <path
+        android:fillColor="#FFDF78"
+        android:pathData="M65,72 L66.5,75.5 L70,77 L66.5,78.5 L65,82 L63.5,78.5 L60,77 L63.5,75.5 Z" />
+    <path
+        android:fillColor="#FFDF78"
+        android:pathData="M100,50 L101.5,54 L105.5,55.5 L101.5,57 L100,61 L98.5,57 L94.5,55.5 L98.5,54 Z" />
+
+    <!-- Open Book in Center (White/Ivory) -->
+    <path
+        android:fillColor="#FFFDF5"
+        android:pathData="M100,122 C88,114 74,114 62,117 L62,139 C74,136 88,136 100,144 C112,136 126,136 138,139 L138,117 C126,114 112,114 100,122 Z" />
+
+    <!-- Book Center Seam and Gold Bottom Border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2"
+        android:pathData="M62,139 C74,136 88,136 100,144 C112,136 126,136 138,139" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M98.8,122 L101.2,122 L101.2,144 L98.8,144 Z" />
+
+    <!-- Feather Quill Pen writing over book -->
+    <!-- Quill Feather Body (Soft Silver Blue / Cream) -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M128,62 C122,66 112,78 102,94 C99.5,98 97,102 95,106 L92,112 L98,110 L102,107 C108,98 120,80 128,62 Z" />
+    
+    <!-- Quill Gold Shaft & Accents -->
+    <path
+        android:fillColor="#FFDF78"
+        android:pathData="M129,59 C127,64 120,77 108,92 C104,97 99,103 97,107 L95.5,109 L98,107.5 C101.5,104 107,96 112,90 C122,76 128,62 129,59 Z" />
+
+    <!-- Golden Pen Grip / Collar -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M95,105 L90,115 L98,111 Z" />
+
+    <!-- Pen Nib Tip pointing at book -->
+    <path
+        android:fillColor="#FFF6DD"
+        android:strokeColor="#C5A059"
+        android:strokeWidth="1"
+        android:pathData="M91,113 L86,123 L96,117 Z" />
+    <path
+        android:fillColor="#101D36"
+        android:pathData="M86,123 L87.5,120 L89,122 Z" />
+
+    <!-- Sunburst Radiance beneath book -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M100,147 L100,154 M92,146 L89,152 M108,146 L111,152 M84,144 L79,149 M116,144 L121,149" />
+</vector>
